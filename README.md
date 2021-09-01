@@ -1,2 +1,2 @@
-# friendly-octo-memory
+# Tailwind CSS
 Tailwind CSS practice repository
