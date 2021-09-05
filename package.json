@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "Tailwind CSS Practice repo",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "Varun Bhabhra",
+  "license": "ISC",
+  "dependencies": {
+    "css.gg": "^2.0.0",
+    "tailwindcss": "^2.2.9"
+  }
+}

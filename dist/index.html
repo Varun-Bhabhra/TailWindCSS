@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>TailWind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-green-600">
+    <!-- NAVBAR COMPONENT -->
+    <nav class="flex items-center justify-between flex-wrap bg-green-900 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <span class="font-bold text-xl">TailWind</span>
+        </div>
+
+        <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto">
+            <div class="text-sm sm:flex-grow">
+                <a href="#" class="block mt-4 sm:inline-block sm:mt-0 text-green-200 hover:text-white hover:underline mr-4">
+                    Home
+                </a>
+                <a href="#" class="block mt-4 sm:inline-block sm:mt-0 text-green-200 hover:text-white hover:underline mr-4">
+                    News
+                </a>
+                <a href="#" class="block mt-4 sm:inline-block sm:mt-0 text-green-200 hover:text-white hover:underline mr-4">
+                    Card
+                </a>
+            </div>
+            <div>
+                <a href="" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-700 hover:bg-white mt-4 md:mt-0">Login</a>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-6"></div>
+
+    <!-- BUTTON COMPONENT  -->
+    <!-- <div class="container">
+        <button class="align-middle bg-yellow-300 text-white font-bold py-2 px-4 rounded hover:bg-yellow-100 hover:text-gray-700">Button!</button> -->
+
+    <!-- ALERT COMPONENT  -->
+    <!-- <div class="bg-yellow-200 border border-red-400 text-yellow-800 px-4 py-3 rouned relative my-5" role="alert">
+            <strong class="font-bold">Sup Bitch!</strong>
+            <span class="block md:inline">Please update your standard!</span>
+        </div>
+    </div> -->
+
+    <!-- CARD COMPONENT  -->
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+        <div class="flex-shrink-0">
+            <!-- <img src="img/images.png" alt="logo" class="h-12 w-12 "> -->
+            <svg class="fill-current text-green-600 h-12 w-12" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="655.359" height="655.359" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd" viewBox="0 0 6.827 6.827">
+                <defs>
+                    <style>
+                        .fil0 {
+                            fill: none
+                        }
+                    </style>
+                </defs>
+                <g id="Layer_x0020_1">
+                    <g id="_491464688">
+                        <path id="_491464904" class="fil0" d="M0 0h6.827v6.827H0z" />
+                        <path id="_491465048" class="fil0" d="M.853.853h5.12v5.12H.853z" />
+                    </g>
+                    <g id="_491464616">
+                        <path id="_491465072" d="M2.392 4.777c-.225.14-.465.263-.72.343l-.178.055.059-.145c.064-.158.12-.333.155-.51.029-.142.045-.286.042-.422-.445-.233-.711-.527-.828-.835a1.069 1.069 0 0 1-.02-.7c.07-.226.211-.44.41-.623.367-.334.93-.563 1.61-.563.455 0 .887.114 1.237.305.249.136.457.31.603.51.147.203.23.43.23.67 0 .177-.045.36-.146.545-.16.293-.423.523-.744.683a2.72 2.72 0 0 1-1.12.27 7.97 7.97 0 0 1-.59.417z" style="fill:#43a047;fill-rule:nonzero" />
+                        <path id="_491464928" d="M3.372 5.051c-.224.14-.464.264-.72.343l-.177.055.058-.144c.065-.159.12-.334.155-.51.03-.143.045-.287.043-.423-.446-.232-.712-.526-.828-.835a1.069 1.069 0 0 1-.02-.699c.07-.226.21-.44.41-.623.366-.335.93-.563 1.61-.563.455 0 .887.114 1.236.304.25.136.458.31.604.511.146.202.23.43.23.67 0 .176-.046.36-.146.545-.16.293-.423.522-.744.683a2.72 2.72 0 0 1-1.12.27 7.967 7.967 0 0 1-.59.416z" style="fill:#66bb6a;fill-rule:nonzero" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class=" ml-6 pt-1">
+            <h4 class="text-xl text-white-300">Hello</h4>
+            <p class="text-base text-gray-600">You have a new message</p>
+        </div>
+    </div>
+
+    <!-- CARD COLUMNS -->
+    <div class="container mt-5 mx-auto px-2">
+        <!-- Flex on med screens and up -->
+        <div class="md:flex">
+            <div class="flex-1 text-gray-700 text-center bg-gray-300 px-5 py-5 m-2 rounded">
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                        <img class="rounded-lg lg:w-64" src="img/william-bout-7cdFZmLlWOM-unsplash.jpg" alt="" />
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-6">
+                        <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                            Networking
+                        </div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding connections to help your business grow</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 text-gray-700 text-center bg-gray-300 px-5 py-5 m-2 rounded">
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                        <img class="rounded-lg lg:w-64" src="img/joshua-sortino-xZqr8WtYEJ0-unsplash.jpg" alt="" />
+                    </div>
+                    <div class=" mt-4 lg:mt-0 lg:ml-6">
+                        <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                            Marketing
+                        </div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mx-auto px-2">
+        <!-- Flex on med screens and up -->
+        <div class="md:flex">
+            <div class="flex-1 text-gray-700 text-center bg-gray-300 px-5 py-5 m-2 rounded">
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                        <img class="rounded-lg lg:w-64" src="img/macos-catalina-cb.jpg" alt="" />
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-6">
+                        <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                            Networking
+                        </div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding connections to help your business grow</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 text-gray-700 text-center bg-gray-300 px-5 py-5 m-2 rounded">
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                        <img class="rounded-lg lg:w-64" src="img/koes-nadi-XkUFF1nnbA8-unsplash.jpg" alt="" />
+                    </div>
+                    <div class=" mt-4 lg:mt-0 lg:ml-6">
+                        <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                            Marketing
+                        </div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
