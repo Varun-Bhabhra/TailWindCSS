@@ -470,8 +470,6 @@ textarea::placeholder {
   color: #9ca3af;
 }
 
-
-
 button,
 [role="button"] {
   cursor: pointer;
